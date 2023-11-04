@@ -1,5 +1,5 @@
 # My confg
-theme = "kanagawa"
+theme = "catppuccin_macchiato"
 
 [editor]
 line-number = "relative"
@@ -23,8 +23,8 @@ hidden = false
 enable = true
 
 [keys.normal]
-D = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
-C = ["ensure_selections_forward", "extend_to_line_end", "change_selection"]
+A-d = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
+A-c = ["ensure_selections_forward", "extend_to_line_end", "change_selection"]
 A-left = ["goto_previous_buffer"]
 A-right = ["goto_next_buffer"]
 A-w = ":buffer-close"

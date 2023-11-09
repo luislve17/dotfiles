@@ -1,0 +1,5 @@
+[[language]]
+name = "python"
+file-types = ["py"]
+comment-token = "#"
+language-servers = [ "pylsp" ]
